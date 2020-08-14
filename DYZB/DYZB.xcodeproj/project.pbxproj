@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7110F77D24E66E2300DE32D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F77C24E66E2300DE32D2 /* AppDelegate.swift */; };
 		7110F77F24E66E2300DE32D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F77E24E66E2300DE32D2 /* SceneDelegate.swift */; };
-		7110F78124E66E2300DE32D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110F78024E66E2300DE32D2 /* ViewController.swift */; };
 		7110F78424E66E2300DE32D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7110F78224E66E2300DE32D2 /* Main.storyboard */; };
 		7110F78624E66E2600DE32D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7110F78524E66E2600DE32D2 /* Assets.xcassets */; };
 		7110F78924E66E2600DE32D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7110F78724E66E2600DE32D2 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		7110F77924E66E2300DE32D2 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7110F77C24E66E2300DE32D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7110F77E24E66E2300DE32D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7110F78024E66E2300DE32D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7110F78324E66E2300DE32D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7110F78524E66E2600DE32D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7110F78824E66E2600DE32D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,13 +56,68 @@
 			children = (
 				7110F77C24E66E2300DE32D2 /* AppDelegate.swift */,
 				7110F77E24E66E2300DE32D2 /* SceneDelegate.swift */,
-				7110F78024E66E2300DE32D2 /* ViewController.swift */,
+				7110F79024E675AD00DE32D2 /* class */,
 				7110F78224E66E2300DE32D2 /* Main.storyboard */,
 				7110F78524E66E2600DE32D2 /* Assets.xcassets */,
 				7110F78724E66E2600DE32D2 /* LaunchScreen.storyboard */,
 				7110F78A24E66E2600DE32D2 /* Info.plist */,
 			);
 			path = DYZB;
+			sourceTree = "<group>";
+		};
+		7110F79024E675AD00DE32D2 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				7110F79624E6760200DE32D2 /* Tools */,
+				7110F79524E675FC00DE32D2 /* Profile */,
+				7110F79424E675E100DE32D2 /* Follow */,
+				7110F79324E675DD00DE32D2 /* Live */,
+				7110F79224E675D700DE32D2 /* Home */,
+				7110F79124E675CA00DE32D2 /* Main */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		7110F79124E675CA00DE32D2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7110F79224E675D700DE32D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7110F79324E675DD00DE32D2 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		7110F79424E675E100DE32D2 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		7110F79524E675FC00DE32D2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7110F79624E6760200DE32D2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +191,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7110F78124E66E2300DE32D2 /* ViewController.swift in Sources */,
 				7110F77D24E66E2300DE32D2 /* AppDelegate.swift in Sources */,
 				7110F77F24E66E2300DE32D2 /* SceneDelegate.swift in Sources */,
 			);
